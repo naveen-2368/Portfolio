@@ -66,7 +66,7 @@ const Projects = () => {
               key={index}
             >
               <img
-                className="h-[200px] md:h-[220px] w-[90%] md:w-full rounded-lg group-hover:opacity-90 transition-opacity duration-500 fade-in fade-in-show"
+                className="h-[180px] md:h-[220px] w-[100%] md:w-full rounded-lg group-hover:opacity-90 transition-opacity duration-500 fade-in fade-in-show"
                 src={project.image}
                 alt={`Project ${index + 1}`}
               />
