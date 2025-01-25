@@ -25,8 +25,8 @@ const Projects = () => {
       },
       {
         image: websiteimg4,
-        desc: "A sleek digital clock built with React, displaying real-time updates with a dynamic and responsive design.",
-        link: "https://github.com/naveen-2368/Digital-clock",
+        desc: "React-based pagination component that fetches data from an API, displays posts in pages, and allows navigation with buttons for previous, next, first, last, and page numbers.",
+        link: "https://github.com/naveen-2368/pagination",
       },
       {
         image: websiteimg5,

@@ -4,8 +4,7 @@ const Resume = () => {
   const downloadResume = () => {
     // Create a temporary <a> element
     const link = document.createElement("a");
-    link.href =
-      "/Nk.resume.PDF"; // File path relative to the public folder
+    link.href = "/Nk.resume.PDF"; // File path relative to the public folder
     link.download = "NK.resume.PDF"; // Specify the downloaded filename
     link.click(); // Programmatically trigger the download
   };
@@ -46,27 +45,19 @@ const Resume = () => {
                 Programming Languages
               </p>
               <ul className="pl-7 fade-in fade-in-show text-gray-400">
-                <li className="hover:text-gray-200 cursor-pointer">Python</li>
-                <li className="hover:text-gray-200 cursor-pointer">
-                  JavaScript
-                </li>
+                <li>Python</li>
+                <li>JavaScript</li>
               </ul>
               <p className="pt-5 font-bold fade-in fade-in-show">
                 Front-End Tools
               </p>
               <ul className="pl-7 fade-in fade-in-show text-gray-400">
-                <li className="hover:text-gray-200 cursor-pointer">HTML</li>
-                <li className="hover:text-gray-200 cursor-pointer">CSS</li>
-                <li className="hover:text-gray-200 cursor-pointer">
-                  JavaScript
-                </li>
-                <li className="hover:text-gray-200 cursor-pointer">
-                  Bootstrap
-                </li>
-                <li className="hover:text-gray-200 cursor-pointer">
-                  Tailwind CSS
-                </li>
-                <li className="hover:text-gray-200 cursor-pointer">React.js</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>Tailwind CSS</li>
+                <li>React.js</li>
               </ul>
             </div>
             <div className="pt-10">
@@ -74,17 +65,13 @@ const Resume = () => {
                 Backend Tools
               </p>
               <ul className="pl-7 fade-in fade-in-show text-gray-400">
-                <li className="hover:text-gray-200 cursor-pointer">Node.js</li>
-                <li className="hover:text-gray-200 cursor-pointer">
-                  Express.js
-                </li>
+                <li>Node.js</li>
+                <li>Express.js</li>
               </ul>
               <p className="pt-5 font-bold fade-in fade-in-show">Database</p>
               <ul className="pl-7 fade-in fade-in-show text-gray-400">
-                <li className="hover:text-gray-200 cursor-pointer">MySQL</li>
-                <li className="hover:text-gray-200 cursor-pointer">
-                  PostgreSQL
-                </li>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
               </ul>
             </div>
           </div>

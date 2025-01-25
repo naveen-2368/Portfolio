@@ -1,6 +1,7 @@
 import Mypic from "../assets/mypic.jpg";
 
 const About = () => {
+  
   const config = {
     line1:
       "Hi! I’m Naveenkumar, an aspiring software developer from Erode, Tamil Nadu. I recently completed my Bachelor of Engineering in Electronics and Communication Engineering from the Government College of Engineering, Erode (Anna University) with an academic record of 78%.",
@@ -24,7 +25,7 @@ const About = () => {
         <img
           src={Mypic}
           alt="Naveenkumar"
-          className="rounded-xl opacity-85 w-[60%] md:w-[100%] mb-5 border-4 border-gray-700 hover:border-gray-600 hover:scale-105 transition-transform duration-300 ease-in-out"
+          className="rounded-xl opacity-85 w-[60%] md:w-[100%] mb-5 border-4 border-orange-200 hover:border-orange-400 hover:scale-105 transition-transform duration-300 ease-in-out"
         />
 
         {/* Progress Bars */}
