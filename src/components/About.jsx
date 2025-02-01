@@ -25,7 +25,7 @@ const About = () => {
         <img
           src={Mypic}
           alt="Naveenkumar"
-          className="rounded-xl opacity-85 w-[60%] md:w-[100%] mb-5 border-4 border-orange-200 hover:border-orange-400 hover:scale-105 transition-transform duration-300 ease-in-out"
+          className="rounded-xl opacity-85 w-[60%] md:w-[100%] mb-5 border-4 border-gray-300 hover:border-gray-500 hover:scale-105 transition-transform duration-300 ease-in-out"
         />
 
         {/* Progress Bars */}

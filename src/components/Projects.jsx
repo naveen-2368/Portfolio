@@ -25,7 +25,7 @@ const Projects = () => {
       },
       {
         image: websiteimg4,
-        desc: "React-based pagination component that fetches data from an API, displays posts in pages, and allows navigation with buttons for previous, next, first, last, and page numbers.",
+        desc: "React-based pagination component that fetches data from an API, displays posts in pages, and allows navigation.",
         link: "https://github.com/naveen-2368/pagination",
       },
       {

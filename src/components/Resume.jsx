@@ -38,7 +38,7 @@ const Resume = () => {
           </p>
           <div className="pt-5 flex gap-5 p-5">
             <div>
-              <h1 className="text-xl text-[#e69e5f] pb-5 font-bold fade-in fade-in-show">
+              <h1 className="text-xl text-[#f89a47] pb-5 font-bold fade-in fade-in-show">
                 Skills:
               </h1>
               <p className="p-2 font-bold fade-in fade-in-show">
