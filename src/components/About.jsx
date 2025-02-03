@@ -17,7 +17,7 @@ const About = () => {
 
   return (
     <section
-      className="flex flex-col md:flex-row px-5 bg-primary justify-center md:justify-around pt-52 pb-32"
+      className="font-hero-font flex flex-col md:flex-row px-5 bg-primary justify-center md:justify-around pt-52 pb-32"
       id="about"
     >
       {/* Image Section */}
@@ -53,7 +53,7 @@ const About = () => {
 
       {/* Text Section */}
       <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
-        <div className="flex flex-col justify-center text-gray-200 text-center md:text-left">
+        <div className="flex flex-col justify-center text-gray-300 text-center md:text-left">
           <h1 className="text-3xl gradient-text hover-effect mb-3 font-bold fade-in fade-in-show">
             About Me
           </h1>

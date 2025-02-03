@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div id="footer" className="py-5 bg-header text-center text-gray-200">
+    <div id="footer" className="py-5 bg-header text-center text-gray-200 font-hero-font">
       &copy; nk2025
       <div className="flex gap-2 justify-center pt-3 pb-2 ">
         <a
